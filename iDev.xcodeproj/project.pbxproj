@@ -21,6 +21,7 @@
 		0B5371512B75085C005CD56A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5371542B75085C005CD56A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B53715C2B7508D1005CD56A /* Protfolio */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Protfolio; path = ../../../../../Protfolio; sourceTree = "<group>"; };
+		0B5371602B751172005CD56A /* Router */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Router; path = ../../../../../Router; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		0B53715B2B7508C0005CD56A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				0B5371602B751172005CD56A /* Router */,
 				0B53715C2B7508D1005CD56A /* Protfolio */,
 			);
 			path = Module;
