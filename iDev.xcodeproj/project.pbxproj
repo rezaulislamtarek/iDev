@@ -11,6 +11,7 @@
 		0B5371502B75085B005CD56A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B53714F2B75085B005CD56A /* ContentView.swift */; };
 		0B5371522B75085C005CD56A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5371512B75085C005CD56A /* Assets.xcassets */; };
 		0B5371552B75085C005CD56A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5371542B75085C005CD56A /* Preview Assets.xcassets */; };
+		0B53715F2B7508ED005CD56A /* Protfolio in Frameworks */ = {isa = PBXBuildFile; productRef = 0B53715E2B7508ED005CD56A /* Protfolio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0B53714F2B75085B005CD56A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B5371512B75085C005CD56A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5371542B75085C005CD56A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B53715C2B7508D1005CD56A /* Protfolio */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Protfolio; path = ../../../../../Protfolio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B53715F2B7508ED005CD56A /* Protfolio in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +40,7 @@
 			children = (
 				0B53714C2B75085B005CD56A /* iDev */,
 				0B53714B2B75085B005CD56A /* Products */,
+				0B53715D2B7508ED005CD56A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +55,7 @@
 		0B53714C2B75085B005CD56A /* iDev */ = {
 			isa = PBXGroup;
 			children = (
+				0B53715B2B7508C0005CD56A /* Module */,
 				0B53714D2B75085B005CD56A /* iDevApp.swift */,
 				0B53714F2B75085B005CD56A /* ContentView.swift */,
 				0B5371512B75085C005CD56A /* Assets.xcassets */,
@@ -65,6 +70,21 @@
 				0B5371542B75085C005CD56A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B53715B2B7508C0005CD56A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0B53715C2B7508D1005CD56A /* Protfolio */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0B53715D2B7508ED005CD56A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = iDev;
+			packageProductDependencies = (
+				0B53715E2B7508ED005CD56A /* Protfolio */,
+			);
 			productName = iDev;
 			productReference = 0B53714A2B75085B005CD56A /* iDev.app */;
 			productType = "com.apple.product-type.application";
@@ -344,6 +367,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B53715E2B7508ED005CD56A /* Protfolio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Protfolio;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B5371422B75085B005CD56A /* Project object */;
 }
